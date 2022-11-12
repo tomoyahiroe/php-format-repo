@@ -1,0 +1,17 @@
+{
+    "name": "hiroetomokana/format_folder",
+    "autoload": {
+        "psr-4": {
+            "Hiroetomokana\\FormatFolder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tomoyahiroe",
+            "email": "tomoya4creative@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.13"
+    }
+}

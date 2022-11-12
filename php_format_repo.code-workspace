@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#29B6F6",
+      "statusBar.foreground": "#ffffff"
+    }
+  }
+}
