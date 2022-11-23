@@ -24,7 +24,6 @@
 
 推奨事項に入れている拡張機能は以下の通りです。
 
-- rifi2k.format-html-in-php
 - junstyle.php-cs-fixer
 
 4. 以下のコマンドで composer.json 内のライブラリをインストールします。
@@ -87,4 +86,5 @@ class Product extends Model
 ## 懸念点
 
 - 意味ごとに改行などはしないので、適宜手動で改行が必要です。
-- htmlが混在するファイルでは、format html in php がコードを整形しています。これによりphpのコード部分の整形がうまくいかない可能性があります。
+- ~~htmlが混在するファイルでは、format html in php がコードを整形しています。これによりphpのコード部分の整形がうまくいかない可能性があります。~~
+- php-cs-fixerでhtmlの整形も可能にできました。(2022/11/23)

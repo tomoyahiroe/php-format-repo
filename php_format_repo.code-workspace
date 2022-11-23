@@ -9,6 +9,8 @@
     "extensions.ignoreRecommendations": false,
     "php-cs-fixer.onsave": true,
     "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.autoFixByBracket": false,
+    "php-cs-fixer.formatHtml": true,
     "workbench.colorCustomizations": {
       "statusBar.background": "#29B6F6",
       "statusBar.foreground": "#ffffff"
